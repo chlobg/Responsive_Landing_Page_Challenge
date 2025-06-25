@@ -69,24 +69,26 @@
   @media (max-width: 430px) {
     &__grid {
       grid-template-columns: 1fr;
-      gap: 16px;
     }
 
     &__container {
-      padding: 48px 16px;
+      padding: 48px 15px;
     }
 
     &__heading {
       font-size: 24px;
+      margin-bottom: 48px;
     }
 
     &__card {
-      max-width: 100%;
-      margin: 0 auto;
+      width: 100%;
+      max-width: 401px;
+      margin-bottom: 30px;
     }
 
     .btn--primary {
-      padding: 14px;
+      padding: 14px 0;
+      text-align: center;
     }
   }
 
