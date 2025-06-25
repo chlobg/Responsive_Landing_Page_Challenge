@@ -266,7 +266,6 @@ img {
     margin-bottom: 48px;
   }
   .features__card {
-    width: 100%;
     max-width: 401px;
   }
   .features .btn--primary {
@@ -281,7 +280,6 @@ img {
     padding: 0 15px;
   }
   .features .features__card {
-    width: 100%;
     max-width: 401px;
   }
 }
@@ -493,7 +491,6 @@ img {
     padding: 0 15px;
   }
   .options .options__card {
-    width: 100%;
     max-width: 401px;
   }
   .options .options__content {
