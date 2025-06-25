@@ -47,4 +47,17 @@
     margin: 0;
     padding-left: inherit;
   }
+
+  @media (max-width: 430px) {
+    .header__menu {
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .header__actions {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
 }
