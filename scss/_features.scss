@@ -1,0 +1,50 @@
+@use "variables" as *;
+
+.features {
+  padding: 128px 0px;
+
+  &__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 120px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+  }
+
+  &__card {
+    background-color: $black-color0;
+    color: $white-color;
+    border-radius: 16px;
+    padding: 48px 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: inherit;
+  }
+}

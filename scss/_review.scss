@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+.review {
+  background: url("C:/Users/chloe OBIANG/OneDrive/Bureau/Napa Global/Challenges/Challenge2/assets/images/review__image--backgroung.jpg")
+    center/cover no-repeat;
+  color: $white-color;
+  text-align: center;
+
+  &__container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 165px 318px;
+  }
+
+  &__author {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+}

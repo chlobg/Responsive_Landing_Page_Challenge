@@ -1,0 +1,49 @@
+@use "variables" as *;
+
+.options {
+  background-color: $light-gray-color;
+  padding: 160px 120px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    max-width: 960px;
+    width: 100%;
+
+    flex-direction: row;
+
+    .options__image {
+      max-width: 300px;
+      margin-right: 50px;
+    }
+
+    .options__text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 118.5px 122px 118.5px 0;
+
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: $gray-color;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    }
+  }
+}

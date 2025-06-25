@@ -1,0 +1,13 @@
+// ======================
+//        MAIN SCSS (using @use)
+// ======================
+
+@use "variables" as *;
+@use "base";
+@use "header";
+@use "hero";
+@use "features";
+@use "courses";
+@use "options";
+@use "review";
+@use "footer";

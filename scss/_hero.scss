@@ -1,0 +1,56 @@
+@use "variables" as *;
+
+.hero {
+  background-color: $white-color;
+  text-align: center;
+  margin-bottom: 139px;
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 56px;
+    font-weight: 700;
+    color: $black-color2;
+    margin-bottom: 24px;
+    margin-top: 139px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    color: $gray-color;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+
+  &__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    .btn--primary {
+      background-color: $primary-color;
+      color: $white-color;
+      padding: 12px 28px;
+      font-weight: 500;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero__video-link {
+      font-size: 16px;
+      color: $primary-color;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
