@@ -114,16 +114,6 @@ img {
   .header__card {
     width: 100%;
   }
-  .header .features__container,
-  .header .options__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .header .features__card,
-  .header .options__card {
-    width: 100%;
-    max-width: 360px;
-  }
 }
 @media (min-width: 1728px) {
   .header__container {
@@ -199,16 +189,6 @@ img {
   .hero__card {
     width: 100%;
   }
-  .hero .features__container,
-  .hero .options__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero .features__card,
-  .hero .options__card {
-    width: 100%;
-    max-width: 360px;
-  }
 }
 @media (min-width: 1728px) {
   .hero__container {
@@ -277,13 +257,13 @@ img {
   .features__card {
     width: 100%;
   }
-  .features .features__container,
-  .features .options__container {
+  .features__container {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
   }
-  .features .features__card,
-  .features .options__card {
+  .features__card {
     width: 100%;
     max-width: 360px;
   }
@@ -410,16 +390,6 @@ img {
   .courses__card {
     width: 100%;
   }
-  .courses .features__container,
-  .courses .options__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .courses .features__card,
-  .courses .options__card {
-    width: 100%;
-    max-width: 360px;
-  }
 }
 @media (min-width: 1728px) {
   .courses__container {
@@ -488,13 +458,13 @@ img {
   .options__card {
     width: 100%;
   }
-  .options .features__container,
-  .options .options__container {
+  .options__container {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
   }
-  .options .features__card,
-  .options .options__card {
+  .options__card {
     width: 100%;
     max-width: 360px;
   }
@@ -544,16 +514,6 @@ img {
   }
   .review__card {
     width: 100%;
-  }
-  .review .features__container,
-  .review .options__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .review .features__card,
-  .review .options__card {
-    width: 100%;
-    max-width: 360px;
   }
 }
 @media (min-width: 1728px) {
@@ -633,16 +593,6 @@ img {
   }
   .footer__card {
     width: 100%;
-  }
-  .footer .features__container,
-  .footer .options__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer .features__card,
-  .footer .options__card {
-    width: 100%;
-    max-width: 360px;
   }
 }
 @media (min-width: 1728px) {

@@ -76,14 +76,14 @@
       width: 100%;
     }
 
-    .features__container,
-    .options__container {
+    &__container {
+      display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 24px;
     }
 
-    .features__card,
-    .options__card {
+    &__card {
       width: 100%;
       max-width: 360px;
     }
