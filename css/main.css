@@ -470,22 +470,16 @@ img {
 @media (max-width: 430px) {
   .options .options__container {
     flex-direction: column;
-    gap: 48px;
   }
   .options .options__item {
     max-width: 401px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 24px;
   }
   .options .options__item .options__image {
-    margin: 0 auto;
     max-width: 401x;
     width: 100%;
-  }
-  .options .options__item .options__text {
-    margin: 0;
   }
   .options .options__item .options__text h3 {
     font-size: 18px;
