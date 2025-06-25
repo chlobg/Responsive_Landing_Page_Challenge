@@ -321,7 +321,7 @@ img {
 }
 
 .review {
-  background: url("C:/Users/chloe OBIANG/OneDrive/Bureau/Napa Global/Challenges/Challenge2/assets/images/review__image--backgroung.jpg") center/cover no-repeat;
+  background: url("..\assetsimagesreview__image--backgroung.jpg") center/cover no-repeat;
   color: #ffffff;
   text-align: center;
 }
