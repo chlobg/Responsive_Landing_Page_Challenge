@@ -60,46 +60,41 @@
 
   // Responsive - iPhone
   @media (max-width: 430px) {
-    &__grid {
-      grid-template-columns: 1fr;
-    }
+    .options {
+      padding: 64px 15px;
 
-    &__container {
-      padding: 48px 15px;
-    }
+      &__container {
+        flex-direction: column;
+        gap: 48px;
+      }
 
-    &__heading {
-      font-size: 24px;
-      margin-bottom: 48px;
-    }
+      &__item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
 
-    &__card {
-      width: 100%;
-      max-width: 401px;
-      text-align: center;
-    }
+        .options__image {
+          margin: 0 auto;
+          max-width: 300px;
+          width: 100%;
+        }
 
-    .options__container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      padding: 0 15px;
-    }
+        .options__text {
+          margin: 0;
+          padding: 0 15px;
 
-    .options__card {
-      max-width: 401px;
-    }
+          h3 {
+            font-size: 18px;
+            margin-bottom: 16px;
+          }
 
-    .options__content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .options__image {
-      margin: 0 auto;
+          p {
+            font-size: 14px;
+            line-height: 1.6;
+          }
+        }
+      }
     }
   }
 
