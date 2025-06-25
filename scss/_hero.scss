@@ -69,6 +69,7 @@
   @media (max-width: 430px) {
     &__grid {
       grid-template-columns: 1fr;
+      gap: 16px;
     }
 
     &__container {
@@ -80,7 +81,12 @@
     }
 
     &__card {
-      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .btn--primary {
+      padding: 14px;
     }
   }
 
