@@ -67,6 +67,11 @@
 
     &__container {
       padding: 48px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 0 15px;
     }
 
     &__heading {
@@ -81,18 +86,6 @@
     .btn--primary {
       padding: 14px 0;
       text-align: center;
-    }
-
-    .features__container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      padding: 0 15px;
-    }
-
-    .features__card {
-      max-width: 401px;
     }
   }
 

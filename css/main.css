@@ -260,6 +260,11 @@ img {
   }
   .features__container {
     padding: 48px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 15px;
   }
   .features__heading {
     font-size: 24px;
@@ -271,16 +276,6 @@ img {
   .features .btn--primary {
     padding: 14px 0;
     text-align: center;
-  }
-  .features .features__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 0 15px;
-  }
-  .features .features__card {
-    max-width: 401px;
   }
 }
 @media (min-width: 1728px) {
@@ -486,7 +481,7 @@ img {
   .options .options__item .options__image {
     margin: 0 auto;
     width: 100%;
-    max-width: 100%;
+    max-width: 280px;
   }
   .options .options__item .options__text {
     margin: 0;
