@@ -18,7 +18,15 @@
           />
         </div>
 
-        <div class="header__right">
+        <button class="header__menu-toggle" id="menuToggle">
+          <img
+            src="assets/images/icons/header__menu-icon.jpg"
+            alt="Menu icon"
+            class="header__menu-icon"
+          />
+        </button>
+
+        <div class="header__right" id="mobileMenu">
           <ul class="header__menu">
             <li class="header__item header__item--active">
               <a href="#">Home</a>
@@ -350,5 +358,14 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const toggle = document.getElementById("menuToggle");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      toggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
