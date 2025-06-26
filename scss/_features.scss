@@ -52,6 +52,9 @@
   @media (max-width: 1024px) {
     &__container {
       padding: 48px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
     }
   }
 

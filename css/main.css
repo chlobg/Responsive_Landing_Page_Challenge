@@ -197,6 +197,9 @@ img {
   text-decoration: underline;
 }
 @media (max-width: 1024px) {
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
   .hero__content {
     margin: 139px 119px;
   }
@@ -301,11 +304,11 @@ img {
   padding-left: inherit;
 }
 @media (max-width: 1024px) {
-  .features__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .features__container {
-    padding: 64px 40px;
+    padding: 48px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 }
 @media (max-width: 430px) {
@@ -441,7 +444,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .courses__container {
-    padding: 64px 40px;
+    padding: 48px 0;
   }
 }
 @media (max-width: 430px) {
