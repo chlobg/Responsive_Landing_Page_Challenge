@@ -556,13 +556,13 @@ img {
 }
 @media (max-width: 430px) {
   .options .options {
-    padding: 128px 0;
     width: 100vw;
   }
   .options .options__container {
     flex-direction: column;
     align-items: center;
     gap: 150px;
+    margin: 128px 15px;
   }
   .options .options__item {
     width: 100%;
@@ -577,16 +577,12 @@ img {
     max-width: 100%;
     width: 100%;
   }
-  .options .options__item .options__text {
-    margin: 0;
-    padding: 0 15px;
-  }
   .options .options__item .options__text h3 {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   .options .options__item .options__text p {
-    font-size: 14px;
+    font-size: px;
     line-height: 1.6;
   }
 }
@@ -629,6 +625,16 @@ img {
   }
   .review__container {
     padding: 152.5px 15px;
+  }
+  .review__author {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+  .review__text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
   }
   .review__heading {
     font-size: 24px;
