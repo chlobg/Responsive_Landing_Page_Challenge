@@ -72,6 +72,49 @@
       gap: 96px;
       justify-content: space-between;
     }
+
+    &__brand {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 60px;
+
+      .footer__socials {
+        display: flex;
+        gap: 12px;
+      }
+    }
+
+    &__links {
+      display: flex;
+      gap: 120px;
+      flex-wrap: wrap;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4 {
+          font-weight: 600;
+          font-size: 28px;
+          margin-bottom: 50px;
+        }
+
+        a {
+          font-size: 24px;
+          font-weight: 400;
+          color: #262626;
+          text-decoration: none;
+          /* gap: 30px; */
+          margin-bottom: 30px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
   }
 
   // Responsive - iPhone

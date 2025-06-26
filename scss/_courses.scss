@@ -122,9 +122,62 @@
       padding: 48px 0;
     }
 
+    &__heading {
+      text-align: center;
+      font-size: 38px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
     &__grid {
-      gap: 24px;
       display: flex;
+      gap: 24px;
+    }
+
+    &__card {
+      width: 100%;
+      max-width: 360px;
+      margin-bottom: 24px;
+    }
+
+    &__title {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0 16px 8px 16px;
+    }
+
+    &__author {
+      font-size: 14px;
+      font-weight: 400;
+      color: $gray-color;
+      margin: 0 16px 20px;
+    }
+
+    &__duration {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #171717;
+      margin: 0 16px 24px;
+      .courses__time-icon {
+        object-fit: contain;
+        flex-shrink: 0;
+      }
+    }
+
+    .btn--primary {
+      background-color: #8b5cf6;
+      color: #ffffff;
+      padding: 14px 0;
+      border: none;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 16px 16px 16px;
+      text-align: center;
     }
   }
 

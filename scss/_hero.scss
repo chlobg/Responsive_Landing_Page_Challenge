@@ -66,16 +66,17 @@
 
     &__title {
       font-size: 80px;
-      margin-top: 112px;
+      font-weight: 700;
       margin-bottom: 24px;
-      color: $black-color2;
+      color: #262626;
     }
 
     &__subtitle {
       font-size: 24px;
-      margin-bottom: 32px;
-      line-height: 1.6;
+      font-weight: 400;
       color: $gray-color;
+      line-height: 1.6;
+      margin-bottom: 32px;
     }
   }
 

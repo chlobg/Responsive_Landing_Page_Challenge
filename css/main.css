@@ -200,15 +200,16 @@ img {
   }
   .hero__title {
     font-size: 80px;
-    margin-top: 112px;
+    font-weight: 700;
     margin-bottom: 24px;
     color: #262626;
   }
   .hero__subtitle {
     font-size: 24px;
-    margin-bottom: 32px;
-    line-height: 1.6;
+    font-weight: 400;
     color: #737373;
+    line-height: 1.6;
+    margin-bottom: 32px;
   }
 }
 @media (max-width: 430px) {
@@ -261,7 +262,7 @@ img {
 .features__container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 128px 120px;
+  padding: 48px 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -271,7 +272,7 @@ img {
   background-color: #000000;
   color: #ffffff;
   border-radius: 16px;
-  padding: 48px 32px;
+  padding: 48px 74px 48px 32px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -302,6 +303,29 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
+  }
+  .features__card {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 48px 453px 48px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .features__card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .features__text {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: inherit;
+    font-weight: 400;
   }
 }
 @media (max-width: 430px) {
@@ -440,9 +464,56 @@ img {
   .courses__container {
     padding: 48px 0;
   }
+  .courses__heading {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
   .courses__grid {
-    gap: 24px;
     display: flex;
+    gap: 24px;
+  }
+  .courses__card {
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 24px;
+  }
+  .courses__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 16px 8px 16px;
+  }
+  .courses__author {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    margin: 0 16px 20px;
+  }
+  .courses__duration {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #171717;
+    margin: 0 16px 24px;
+  }
+  .courses__duration .courses__time-icon {
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  .courses .btn--primary {
+    background-color: #8b5cf6;
+    color: #ffffff;
+    padding: 14px 0;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 16px 16px 16px;
+    text-align: center;
   }
 }
 @media (max-width: 430px) {
@@ -515,11 +586,8 @@ img {
   line-height: 1.6;
 }
 @media (max-width: 1024px) {
-  .options .options {
-    padding: 128px 80px;
-    width: 100vw;
-  }
   .options .options__container {
+    padding: 128px 80px;
     flex-direction: column;
     align-items: center;
     gap: 150px;
@@ -542,11 +610,14 @@ img {
     padding: 0 97px;
   }
   .options .options__item .options__text h3 {
-    font-size: 18px;
+    font-size: 48px;
     margin-bottom: 20px;
+    font-weight: 600;
   }
   .options .options__item .options__text p {
-    font-size: 14px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #737373;
     line-height: 1.6;
   }
 }
@@ -598,12 +669,12 @@ img {
   padding: 165px 318px;
 }
 .review__author {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .review__text {
-  font-size: 18px;
+  font-size: 38px;
   font-weight: 600;
   line-height: 1.6;
 }
@@ -613,6 +684,16 @@ img {
   }
   .review__container {
     padding: 223px 80px;
+  }
+  .review__author {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+  .review__text {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.6;
   }
 }
 @media (max-width: 430px) {
@@ -708,6 +789,42 @@ img {
     align-items: center;
     gap: 96px;
     justify-content: space-between;
+  }
+  .footer__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .footer__brand .footer__socials {
+    display: flex;
+    gap: 12px;
+  }
+  .footer__links {
+    display: flex;
+    gap: 120px;
+    flex-wrap: wrap;
+  }
+  .footer__links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__links div h4 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .footer__links div a {
+    font-size: 24px;
+    font-weight: 400;
+    color: #262626;
+    text-decoration: none;
+    /* gap: 30px; */
+    margin-bottom: 30px;
+  }
+  .footer__links div a:hover {
+    text-decoration: underline;
   }
 }
 @media (max-width: 430px) {

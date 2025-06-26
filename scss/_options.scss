@@ -50,10 +50,8 @@
   // Responsive - iPad
   @media (max-width: 1024px) {
     .options {
-      padding: 128px 80px;
-      width: 100vw;
-
       &__container {
+        padding: 128px 80px;
         flex-direction: column;
         align-items: center;
         gap: 150px;
@@ -78,12 +76,15 @@
           padding: 0 97px;
 
           h3 {
-            font-size: 18px;
+            font-size: 48px;
             margin-bottom: 20px;
+            font-weight: 600;
           }
 
           p {
-            font-size: 14px;
+            font-size: 30px;
+            font-weight: 400;
+            color: $gray-color;
             line-height: 1.6;
           }
         }
