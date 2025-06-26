@@ -102,9 +102,10 @@
   // Responsive - iPhone
   @media (max-width: 430px) {
     .header {
-      &__logo {
-        margin-left: 15px;
-        margin-top: 40px;
+      &__container {
+        padding: 40px 15px;
+        flex-direction: column;
+        align-items: center;
       }
 
       &__menu-toggle {

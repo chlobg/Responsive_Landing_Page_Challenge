@@ -75,6 +75,29 @@
       padding: 48px 15px;
     }
 
+    &__title {
+      font-size: 38px;
+      margin-top: 112px;
+      margin-bottom: 24px;
+      color: $black-color2;
+      font-weight: 700;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+      color: $gray-color;
+    }
+
+    &__cta {
+      gap: 12px;
+      display: flex;
+      align-items: center;
+      margin: 0 108.5px;
+      flex-direction: column;
+    }
+
     &__heading {
       font-size: 24px;
       margin-bottom: 48px;
