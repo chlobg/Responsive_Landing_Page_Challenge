@@ -463,9 +463,6 @@ img {
   }
 }
 @media (max-width: 430px) {
-  .options .options {
-    padding: 64px 15px;
-  }
   .options .options__container {
     flex-direction: column;
     gap: 48px;
@@ -481,7 +478,6 @@ img {
   .options .options__item .options__image {
     margin: 0 auto;
     width: 100%;
-    max-width: 280px;
   }
   .options .options__item .options__text {
     margin: 0;
