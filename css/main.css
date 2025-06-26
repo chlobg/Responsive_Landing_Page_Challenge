@@ -102,6 +102,10 @@ img {
   }
 }
 @media (max-width: 430px) {
+  .header .header__logo {
+    margin-left: 15px;
+    margin-top: 40px;
+  }
   .header .header__menu-toggle {
     display: block;
   }
