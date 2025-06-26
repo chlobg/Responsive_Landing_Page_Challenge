@@ -107,7 +107,7 @@ img {
     margin-top: 40px;
   }
   .header .header__menu-toggle {
-    display: block;
+    display: block !important;
   }
   .header .header__right {
     display: none;
