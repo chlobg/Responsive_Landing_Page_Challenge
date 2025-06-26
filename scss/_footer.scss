@@ -9,19 +9,15 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 48px;
-    padding: 0 clamp(1rem, 5vw, 8rem);
+    gap: 323px;
+    padding: 100px 150px;
   }
 
   &__brand {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
-
-    .footer__logo {
-      width: 80px;
-    }
+    gap: 60px;
 
     .footer__socials {
       display: flex;
@@ -35,7 +31,7 @@
 
   &__links {
     display: flex;
-    gap: clamp(40px, 10vw, 120px);
+    gap: 120px;
     flex-wrap: wrap;
 
     div {
@@ -44,14 +40,16 @@
 
       h4 {
         font-weight: 600;
-        margin-bottom: 24px;
+        margin-bottom: 50px;
       }
 
       a {
-        font-size: 14px;
+        font-size: 24px;
+        font-weight: 400;
         color: $black-color2;
         text-decoration: none;
-        margin-bottom: 16px;
+        gap: 30px;
+        margin-bottom: 54px;
 
         &:hover {
           text-decoration: underline;

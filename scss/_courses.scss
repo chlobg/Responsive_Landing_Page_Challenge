@@ -9,7 +9,7 @@
 
   &__heading {
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 40px;
   }
@@ -38,10 +38,9 @@
 
     .courses__image-wrapper {
       position: relative;
-      aspect-ratio: 16 / 9;
       border-radius: 12px;
       overflow: hidden;
-      margin: 16px 16px 24px;
+      margin: 16px 16px 24px 16px;
 
       .courses__image {
         width: 100%;
@@ -56,20 +55,22 @@
         left: 13px;
         background-color: $primary-color;
         color: $white-color;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 500;
         padding: 8px 16px;
         border-radius: 12px;
       }
     }
 
     .courses__title {
-      font-size: 18px;
+      font-size: 24px;
       font-weight: 600;
-      margin: 0 16px 8px;
+      margin: 0 16px 8px 16px;
     }
 
     .courses__author {
       font-size: 14px;
+      font-weight: 400;
       color: $gray-color;
       margin: 0 16px 20px;
     }
@@ -77,14 +78,13 @@
     .courses__duration {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 5px;
       font-size: 14px;
+      font-weight: 500;
       color: $text-color;
       margin: 0 16px 24px;
 
       .courses__time-icon {
-        width: 16px;
-        height: 16px;
         object-fit: contain;
         flex-shrink: 0;
       }
@@ -92,6 +92,7 @@
 
     .courses__price {
       font-size: 14px;
+      font-weight: 400;
       color: $gray-color;
       margin: 0 16px;
       margin-bottom: 8px;
@@ -100,13 +101,13 @@
     .btn--primary {
       background-color: $primary-color;
       color: $white-color;
-      padding: 12px 0;
+      padding: 14px 0;
       border: none;
       border-radius: 8px;
       font-weight: 500;
+      font-size: 16px;
       cursor: pointer;
-      margin: 0 16px 16px;
-      width: calc(100% - 32px);
+      margin: 0 16px 16px 16px;
       text-align: center;
     }
   }

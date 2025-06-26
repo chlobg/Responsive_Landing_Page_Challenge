@@ -1,12 +1,10 @@
 @use "variables" as *;
 
 .features {
-  padding: 128px 0px;
-
   &__container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 120px;
+    padding: 128px 120px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -22,7 +20,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
 
   &__card-header {
@@ -36,16 +34,17 @@
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 38px;
     font-weight: 600;
     margin: 0;
   }
 
   &__text {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
     margin: 0;
     padding-left: inherit;
+    font-weight: 400;
   }
 
   // Responsive - iPad

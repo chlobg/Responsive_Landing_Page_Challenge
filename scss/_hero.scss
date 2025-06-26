@@ -6,20 +6,20 @@
   margin-bottom: 139px;
 
   &__content {
-    max-width: 800px;
+    padding: 139px 479.5px;
     margin: 0 auto;
   }
 
   &__title {
-    font-size: 56px;
+    font-size: 80px;
     font-weight: 700;
     color: $black-color2;
     margin-bottom: 24px;
-    margin-top: 139px;
   }
 
   &__subtitle {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 400;
     color: $gray-color;
     line-height: 1.6;
     margin-bottom: 32px;
@@ -35,7 +35,7 @@
       background-color: $primary-color;
       color: $white-color;
       padding: 12px 28px;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 16px;
       border-radius: 8px;
       border: none;
@@ -45,7 +45,7 @@
     .hero__video-link {
       font-size: 16px;
       color: $primary-color;
-      font-weight: 500;
+      font-weight: 600;
       text-decoration: none;
 
       &:hover {

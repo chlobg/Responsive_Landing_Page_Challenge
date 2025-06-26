@@ -15,12 +15,6 @@
     align-items: center;
     margin-top: 8.75px;
     margin-bottom: 8.75px;
-
-    &-text {
-      font-weight: 600;
-      font-size: 20px;
-      color: $black-color2;
-    }
   }
 
   &__right {
@@ -84,7 +78,7 @@
       border: 1px solid $border-color;
       background-color: transparent;
       border-radius: 8px;
-      padding: 8px;
+      padding: 11px;
     }
   }
 
