@@ -57,11 +57,25 @@
   // Responsive - iPad
   @media (max-width: 1024px) {
     &__grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr;
     }
 
-    &__container {
-      padding: 64px 40px;
+    &__content {
+      margin: 139px 119px;
+    }
+
+    &__title {
+      font-size: 80px;
+      margin-top: 112px;
+      margin-bottom: 24px;
+      color: $black-color2;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+      color: $gray-color;
     }
   }
 

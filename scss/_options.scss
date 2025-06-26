@@ -49,12 +49,45 @@
 
   // Responsive - iPad
   @media (max-width: 1024px) {
-    &__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    .options {
+      padding: 128px 80px;
+      width: 100vw;
 
-    &__container {
-      padding: 64px 40px;
+      &__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 150px;
+      }
+
+      &__item {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+
+        .options__image {
+          margin: 0 auto;
+          max-width: 100%;
+          width: 100%;
+        }
+
+        .options__text {
+          margin: 0;
+          padding: 0 97px;
+
+          h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 1.6;
+          }
+        }
+      }
     }
   }
 

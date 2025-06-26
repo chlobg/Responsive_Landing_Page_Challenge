@@ -50,12 +50,8 @@
 
   // Responsive - iPad
   @media (max-width: 1024px) {
-    &__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
     &__container {
-      padding: 64px 40px;
+      padding: 48px 80px;
     }
   }
 
