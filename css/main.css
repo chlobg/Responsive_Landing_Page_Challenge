@@ -446,6 +446,10 @@ img {
   .courses__container {
     padding: 48px 0;
   }
+  .courses__grid {
+    gap: 24px;
+    display: flex;
+  }
 }
 @media (max-width: 430px) {
   .courses__grid {

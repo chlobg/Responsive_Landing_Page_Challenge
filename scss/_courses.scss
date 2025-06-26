@@ -120,6 +120,11 @@
     &__container {
       padding: 48px 0;
     }
+
+    &__grid {
+      gap: 24px;
+      display: flex;
+    }
   }
 
   // Responsive - iPhone
