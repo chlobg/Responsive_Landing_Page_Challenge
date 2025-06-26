@@ -697,7 +697,12 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .footer__container {
-    padding: 64px 40px;
+    margin: 100px 212px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    justify-content: space-between;
   }
 }
 @media (max-width: 430px) {
