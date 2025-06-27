@@ -84,8 +84,6 @@
 
   // Responsive - iPhone
   @media (max-width: 430px) {
-    padding: 142.5px 0 48px 0;
-
     &__grid {
       grid-template-columns: 1fr;
     }
@@ -95,7 +93,7 @@
       flex-direction: column;
       align-items: center;
       gap: 15px;
-      padding: 0 15px;
+      padding: 48px 15px;
     }
 
     &__heading {
@@ -105,6 +103,22 @@
 
     &__card {
       max-width: 401px;
+    }
+
+    &__card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 38px;
+      font-weight: 600;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 0;
+      padding-left: inherit;
+      font-weight: 500;
     }
 
     .btn--primary {

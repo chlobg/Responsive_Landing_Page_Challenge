@@ -217,17 +217,17 @@ img {
     grid-template-columns: 1fr;
   }
   .hero__container {
-    padding: 48px 15px;
+    padding: 112px 15px;
   }
   .hero__title {
     font-size: 38px;
-    margin-top: 112px;
     margin-bottom: 24px;
     color: #262626;
     font-weight: 700;
   }
   .hero__subtitle {
     font-size: 20px;
+    font-weight: 400;
     margin-bottom: 32px;
     line-height: 1.6;
     color: #737373;
@@ -329,9 +329,6 @@ img {
   }
 }
 @media (max-width: 430px) {
-  .features {
-    padding: 142.5px 0 48px 0;
-  }
   .features__grid {
     grid-template-columns: 1fr;
   }
@@ -340,7 +337,7 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 0 15px;
+    padding: 48px 15px;
   }
   .features__heading {
     font-size: 24px;
@@ -348,6 +345,20 @@ img {
   }
   .features__card {
     max-width: 401px;
+  }
+  .features__card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .features__title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: inherit;
+    font-weight: 500;
   }
   .features .btn--primary {
     padding: 14px 0;
@@ -526,8 +537,14 @@ img {
     padding: 48px 38.25px;
   }
   .courses__heading {
-    font-size: 24px;
+    font-size: 38px;
     margin-bottom: 40px;
+    font-weight: 600;
+  }
+  .courses__grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 23.25px;
   }
   .courses__card {
     width: 100%;
@@ -608,15 +625,15 @@ img {
   .options .options__item .options__text {
     margin: 0;
     padding: 0 97px;
+    gap: 20px;
   }
   .options .options__item .options__text h3 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 30px;
     font-weight: 600;
   }
   .options .options__item .options__text p {
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     color: #737373;
     line-height: 1.6;
   }

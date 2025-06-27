@@ -74,16 +74,17 @@
         .options__text {
           margin: 0;
           padding: 0 97px;
+          gap: 20px;
 
           h3 {
-            font-size: 48px;
-            margin-bottom: 20px;
+            font-size: 30px;
+
             font-weight: 600;
           }
 
           p {
-            font-size: 30px;
-            font-weight: 400;
+            font-size: 20px;
+            font-weight: 500;
             color: $gray-color;
             line-height: 1.6;
           }

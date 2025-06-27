@@ -194,8 +194,15 @@
     }
 
     &__heading {
-      font-size: 24px;
+      font-size: 38px;
       margin-bottom: 40px;
+      font-weight: 600;
+    }
+
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      padding: 0 23.25px;
     }
 
     &__card {
