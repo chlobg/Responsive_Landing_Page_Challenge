@@ -203,17 +203,21 @@
       display: flex;
       flex-direction: column;
       padding: 0 23.25px;
+      gap: 24px;
     }
 
     &__card {
       width: 100%;
       max-width: 401px;
-      margin-bottom: 30px;
+      padding: 16px 16px;
+      margin: 0 auto;
     }
 
     .btn--primary {
-      padding: 14px 0;
+      padding: 16px 0;
+      margin: 0 auto;
       text-align: center;
+      width: 100%;
     }
   }
   // Responsive - Large desktop

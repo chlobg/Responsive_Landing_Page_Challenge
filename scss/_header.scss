@@ -106,8 +106,6 @@
       }
 
       &__right {
-        display: none;
-
         &.active {
           display: flex;
           flex-direction: column;
@@ -124,16 +122,11 @@
       }
 
       &__menu {
-        flex-direction: column;
-        gap: 16px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        display: none;
       }
 
       &__actions {
-        flex-direction: column;
-        gap: 12px;
+        display: none;
       }
     }
 

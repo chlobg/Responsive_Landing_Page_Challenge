@@ -90,6 +90,8 @@
 
     &__container {
       display: flex;
+      margin: 0;
+      padding: 0;
       flex-direction: column;
       align-items: center;
       gap: 15px;
@@ -102,18 +104,19 @@
     }
 
     &__card {
-      max-width: 401px;
+      padding: 48px 32px;
+      gap: 10px;
     }
 
     &__card-header {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
       font-size: 38px;
       font-weight: 600;
     }
 
-    &__title {
+    &__ &__title {
       font-size: 20px;
       line-height: 1.5;
       margin: 0;
