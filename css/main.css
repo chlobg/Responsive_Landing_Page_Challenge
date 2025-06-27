@@ -138,11 +138,6 @@ img {
 .header .header__menu-toggle {
   display: none;
 }
-@media (min-width: 1728px) {
-  .header__container {
-    max-width: 1440px;
-  }
-}
 
 .hero {
   background-color: #ffffff;

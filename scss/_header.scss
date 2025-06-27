@@ -145,11 +145,4 @@
   .header__menu-toggle {
     display: none;
   }
-
-  // Responsive - Large desktop
-  @media (min-width: 1728px) {
-    &__container {
-      max-width: 1440px;
-    }
-  }
 }
